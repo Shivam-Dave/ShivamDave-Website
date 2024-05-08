@@ -1,0 +1,410 @@
+/* General styles */
+body {
+  font-family: "ADLaM Display", sans-serif; /* Set the font family for all text across the website */
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center; /* Center-align text */
+
+  /* Background image properties */
+  background-image: url("images/background.jpg"); /* Specify the correct relative path to your background image */
+  background-size: auto; /* Maintain original size of the image */
+  background-repeat: repeat; /* Repeat the image */
+  background-position: center; /* Center the image */
+}
+
+/* Common styles for sections */
+.section {
+  max-width: 1200px; /* Limit max width for better readability */
+  margin: 0 auto; /* Center the section */
+  padding: 50px 20px;
+  text-align: center; /* Center-align text */
+}
+
+/* Styles for images */
+img {
+  display: block; /* Treat images as block-level */
+  margin: 0 auto; /* Center images */
+  transition: filter 0.3s; /* Add smooth transition */
+}
+
+/* Styles for header and footer */
+header,
+footer {
+  background-color: white;
+  color: rgb(255, 255, 255); /* Footer text color */
+  padding: 20px 40px; /* Padding for header and footer */
+  text-align: center;
+  font-family: "ADLaM Display", sans-serif;
+  margin: 0 auto; /* Center-align header and footer */
+  background-image: url("images/background.jpg"); /* Specify the correct relative path to your background image */
+  background-size: auto; /* Maintain original size of the image */
+  background-repeat: repeat; /* Repeat the image */
+  background-position: center; /* Center the image */
+  margin-top: -25px; /* Bring footer further up */
+}
+
+/* Navigation bar styles */
+nav {
+  margin: 20px auto; /* Center the navigation bar */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: center; /* Center-align list items */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Space between each list item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white; /* Navigation link text color */
+  padding: 10px 15px; /* Padding around each link */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Transition effect on hover */
+}
+
+nav ul li a:hover {
+  background-color: #e1d7d7; /* Background color on hover */
+  color: rgb(0, 0, 0); /* Text color on hover */
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Add an inset shadow */
+}
+
+/* Shivam Dave heading container */
+.shivam-dave {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align content */
+  margin: 0; /* Remove all margin */
+  padding: 0; /* Remove all padding */
+}
+
+/* Shivam Dave heading styling */
+.shivam-dave h1 {
+  font-size: 4rem; /* Increase the font size of the heading */
+  margin: 0; /* Remove all margin around the heading */
+  padding: 0; /* Remove padding in case it's causing space */
+  color: white; /* Set the text color to white */
+}
+
+/* Role description styling */
+.hero-content h1 {
+  font-size: 2rem; /* Keep the font size of the roles description */
+  margin: 0; /* Remove margin to bring the roles description closer */
+  padding: 0; /* Remove padding to avoid space */
+  color: white; /* Set the text color to white */
+}
+
+/* Profile image styling */
+.shivam-dave img {
+  width: 130px; /* Set the width of the profile image */
+  height: 130px; /* Set the height of the profile image */
+  border-radius: 50%; /* Make the image round */
+  margin-bottom: 10px; /* Reduce space below the image */
+}
+
+/* Contact Links */
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px; /* Bring it closer to the navigation */
+}
+
+/* Adjusted spacing between icon rows */
+.icon-row {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between icons */
+  margin-bottom: 5px; /* Reduce margin-bottom between rows */
+}
+
+.contact-icon {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  margin: 3px; /* Reduce space around icons */
+  border-radius: 50%; /* Make icons round */
+  transition: transform 0.3s ease-in-out;
+  background-color: transparent;
+}
+
+/* Add color inversion and inset glow on hover */
+.contact-icon:hover {
+  filter: invert(1); /* Invert colors when hovered */
+  box-shadow: inset 0 0 10px black; /* Add an inset glow inside the icon */
+}
+
+/* About Me Section */
+#about {
+  padding: 20px;
+  text-align: center; /* Align the text and content to the center */
+  margin: 0 auto; /* Center the section within the page */
+  color: rgb(255, 255, 255); /* Set the text color */
+  max-width: 800px; /* Set a max width to keep the content contained */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+.story-container {
+  background-color: rgba(255, 255, 255, 0.1); /* Light background color */
+  border: 2px solid white; /* White border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+  margin: 20px auto; /* Margin around the container */
+  max-width: 80%; /* Limit the container width */
+  color: white; /* Set text color */
+  font-family: "Lucida Sans Unicode", sans-serif; /* Choose a sans-serif font */
+  font-size: 1.2rem; /* Adjust font size for readability */
+  line-height: 1.6; /* Adjust line height for readability */
+}
+
+/* Skills Section */
+#skills {
+  padding: 20px;
+  text-align: center;
+  /* Apply the existing background image to the Skills section */
+  background-image: url("images/background.jpg");
+  background-size: auto; /* Maintain original size of the image */
+  background-repeat: repeat; /* Repeat the image */
+  background-position: center; /* Center the image */
+  color: white; /* Set all text color to white */
+  font-family: "Amasis MT Pro", serif;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  margin-bottom: 10px; /* Reduced margin */
+  font-family: "Bodoni MT", serif;
+  color: white; /* Set text color to white */
+}
+
+/* Technical Skill Rectangles */
+.skill-rectangle-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Use 3 columns */
+  grid-template-rows: auto auto; /* Two rows in the grid */
+  gap: 20px; /* Gap between rows and columns */
+  justify-content: center; /* Center the rectangles */
+  margin-bottom: 20px; /* Margin below the container */
+}
+
+/* Styling for individual skill rectangles */
+.skill-rectangle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; /* Common padding for all rectangles */
+  background-color: #000000; /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 3px 6px rgba(255, 255, 255, 0.1); /* Light shadow effect */
+  transition: box-shadow 0.3s ease-in-out;
+  margin-top: 0; /* Removed top margin */
+  color: rgb(255, 255, 255); /* Set text color to black */
+}
+
+/* Increase padding and space between skill rectangles in the second row */
+.skill-rectangle:nth-child(4),
+.skill-rectangle:nth-child(5) {
+  padding: 5px; /* Increased padding for the second row rectangles */
+  grid-column: span 1; /* Span one column each */
+  grid-row: 2; /* Place in the second row */
+  margin-right: -190px; /* Increase space between the rectangles */
+  margin-left: 190px; /* Increase space between the rectangles */
+  background-color: #000000; /* Light background color */
+}
+
+.skill-rectangle:nth-child(4):hover,
+.skill-rectangle:nth-child(5):hover {
+  box-shadow: 0px 6px 12px rgba(255, 254, 254, 0.9); /* Slightly increased shadow on hover */
+}
+
+/* Adjust hover effect for all skill rectangles */
+.skill-rectangle:hover {
+  box-shadow: 0px -6px 12px rgba(255, 254, 254, 0.9); /* Slightly increased shadow on hover */
+}
+
+/* Skill icon grid */
+.icon-grid {
+  display: grid; /* Use grid layout for icons */
+  grid-template-columns: repeat(4, 1fr); /* Arrange icons in 4 columns */
+  gap: 5px; /* Small gap between icons */
+  justify-content: center; /* Center the icons */
+}
+
+/* Styling for skill icons */
+.skill-icon {
+  width: 50px; /* Consistent icon size */
+  height: 50px;
+  margin: 5px; /* Adjusted margin around the icon */
+  border-radius: 5px; /* Rounded corners for icons */
+}
+
+/* Skill name */
+.skill-rectangle h4 {
+  font-size: 1.4rem; /* Font size for consistency */
+  margin-top: 0; /* Removed space above heading */
+  margin-bottom: 0px; /* Removed margin below heading */
+  font-family: "Amasis MT Pro", serif; /* Font family */
+  color: rgb(255, 255, 255); /* Set text color to black */
+}
+
+/* Skill description */
+.skill-rectangle p {
+  font-size: 1rem; /* Font size consistency */
+  text-align: center;
+  margin-top: 0; /* Removed margin above description */
+  margin-bottom: 0; /* Removed extra margin below description */
+  color: rgb(255, 255, 255); /* Set text color to black */
+}
+
+/* Contact Me Section */
+#contact {
+  padding: 20px; /* Reduced padding to bring the section closer to the navbar */
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  font-family: "Amasis MT Pro", serif;
+
+  /* Add background image */
+  background-image: url("path/to/your/background-image.jpg");
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Keep the background fixed during scrolling */
+
+  /* Text color and visibility */
+  color: white; /* Change text color to white for better visibility */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for contrast */
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-family: "Bodoni MT", serif;
+  color: white; /* Set the heading color to white */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Add text shadow */
+}
+
+/* Form group */
+.contact-form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Amasis MT Pro", serif;
+}
+
+.contact-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: white; /* Set the label color to white */
+  font-family: "Bodoni MT", serif;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  outline: none;
+  color: black; /* Keep input text color black for readability */
+}
+
+.contact-button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #0d64e7; /* Change background color to black */
+  color: #ffffff; /* Change text color to white */
+}
+
+/* Projects Section */
+.projects-section {
+  padding: 20px;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+/* Project Card */
+.project {
+  background-color: #000000;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project-image-container {
+  width: 100%;
+  padding-top: 60%;
+  position: relative;
+}
+
+.project-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 10px 0;
+}
+
+.project-info h3 {
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  margin-bottom: 15px;
+}
+/* Base Button Style */
+button {
+  background-color: #ffffff; /* Set initial background color to white */
+  color: #000000; /* Set initial text color to black */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button Anchor Style */
+button a {
+  color: inherit; /* Use the same color as the button text */
+  text-decoration: none;
+}
+
+/* Button Hover Style */
+button:hover {
+  background-color: #0d64e7; /* Change background color to black */
+  color: #ffffff; /* Change text color to white */
+}
