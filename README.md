@@ -4,7 +4,6 @@ This is my personal website showcasing my work as a software developer, programm
 ## Table of Contents
 
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Live Demo](#live-demo)
 - [Technology Stack](#technology-stack)
 - [File Structure](#file-structure)
@@ -22,21 +21,13 @@ This is my personal website showcasing my work as a software developer, programm
 - **Projects Section**: Showcases some of my key projects with descriptions and links to the live projects.
 - **Contact Form**: Allows users to send me messages directly from the website.
 
-## Screenshots
-
-Here are some screenshots of the website:
-
-![Home Page](images/home_screenshot.png)
-![About Me Page](images/about_screenshot.png)
-![Projects Page](images/projects_screenshot.png)
-
 ## Live Demo
 
-Check out the live demo of the website [here](https://shivamdave-portfolio.vercel.app/).
+Check out the live demo of the website [here](https://shivamdave-website.vercel.app/).
 
 ## Technology Stack
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS
 - **Backend**: N/A (frontend-only project)
 - **Fonts**: Google Fonts
 - **External Libraries**: Particles.js for visual effects
@@ -50,7 +41,6 @@ The repository is organized as follows:
 - `projects.html`: Projects page.
 - `contact.html`: Contact page.
 - `styles.css`: CSS file for styling the website.
-- `scripts.js`: JavaScript file (if any) for interactivity.
 - `images/`: Folder containing images used on the website.
 
 ## Usage
@@ -73,7 +63,7 @@ The repository is organized as follows:
 
 4. **Customize the website**:
 
-    You can customize the website by modifying the HTML, CSS, and JavaScript files to suit your preferences.
+    You can customize the website by modifying the HTML and CSS files to suit your preferences.
 
 ## Contributions
 
